@@ -1,8 +1,8 @@
 # Get Next Line
 
 **Description:**
-* `get next line is a function that reads a file or specific fd (STDIN, .. ) line by line`
-* `read from multiple file descriptor without lost the order of the ligne `
+* get next line is a function that reads a file or specific fd (STDIN, .. ) line by line
+* read from multiple file descriptor without lost the order of the ligne 
 
 ```
 int get_next_line(const int fd, char **line)
